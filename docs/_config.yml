@@ -16,8 +16,7 @@
 title: CN & DevOps SPOIs
 email: adrian.riobo.lorenzo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal collection of articles for better understand topics on technologies related
-  with cloud native and devops world.
+  Articles about cloud native and devops technologies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -26,7 +25,8 @@ linkedin_username: adrian-riobo-lorenzo-57028b53
 
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
 
