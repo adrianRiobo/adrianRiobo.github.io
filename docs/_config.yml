@@ -26,7 +26,7 @@ linkedin_username: adrian-riobo-lorenzo-57028b53
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 
