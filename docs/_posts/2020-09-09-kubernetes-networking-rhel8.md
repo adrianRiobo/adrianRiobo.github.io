@@ -1,13 +1,19 @@
 ---
 theme: default
-title:  ""
+title:  "kubernetes networking stack"
 date:   2020-09-09 16:40:56
 categories: kubernetes networking
 ---
 
-### Kubernetes
+# Kubernetes networking
 
-testing
+## iptables (past)
+
+## iptables legacy vs nftables (present)
+
+## ebpf (future)
+
+
 
 ```js
 // Javascript code with syntax highlighting.
