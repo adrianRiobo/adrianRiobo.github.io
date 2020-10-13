@@ -35,12 +35,12 @@ No usable default provider... libvirt requires plugin installation to manage the
 vagrant plugin install vagrant-libvirt
 ```
 
-Due to some issue compiling the sources for the provider it is prefererd to install vagrant using dnf:
+Due to some issue compiling the sources for the provider it is prefererd to install vagrant using dnf (this is due to the management for internal dependices, like embedded ruby)
 
 ```bash
 sudo dnf install https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_x86_64.rpm
 
-CONFIGURE_ARGS="with-libvirt-include=/usr/include/libvirt with-libvirt-lib=/usr/lib64" vagrant plugin install vagrant-libvirt
+vagrant plugin install vagrant-libvirt
 ```
 
 ## Bibliography
