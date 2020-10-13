@@ -3,9 +3,8 @@ theme: default
 title:  "code ready containers 101"
 date:   2020-10-13 15:40:00
 categories: containers openshift development local
+excerpt_separator: <!--more-->
 ---
-
-## Overview
 
 Initial steps with code ready containers solution. 
 

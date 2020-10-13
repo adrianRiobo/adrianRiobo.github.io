@@ -3,9 +3,8 @@ theme: default
 title:  "vagrant nested virtualization"
 date:   2020-10-13 10:16:56
 categories: virtualization testing environment
+excerpt_separator: <!--more-->
 ---
-
-## Overview
 
 As a testing environment we want to be able to provision local pre configured machines based on different OSs.  
 
