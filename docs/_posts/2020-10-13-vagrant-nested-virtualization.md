@@ -11,6 +11,8 @@ As a testing environment we want to be able to provision local pre configured ma
 
 As our target solution to be tested will use virtualization the virtual machines created should allow use virtualization (this is achieved through nested virtualization).  
 
+<!--more-->
+
 ## Setup
 
 Download vagrant [from](https://www.vagrantup.com/downloads)  

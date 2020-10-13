@@ -9,6 +9,8 @@ categories: containers openshift development local
 
 Initial steps with code ready containers solution. 
 
+<!--more-->
+
 ## Setup
 
 Download vagrant [from](https://www.vagrantup.com/downloads)  
