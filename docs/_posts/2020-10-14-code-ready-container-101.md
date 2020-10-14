@@ -1,7 +1,7 @@
 ---
 theme: default
 title:  "code ready containers 101"
-date:   2020-10-13 15:40:00
+date:   2020-10-14 15:40:00
 categories: containers openshift development local
 excerpt_separator: <!--more-->
 ---
@@ -20,7 +20,7 @@ Check virtualization extensions:
 cat /proc/cpuinfo | egrep "vmx|svm"
 ```
 
-Fedora box is not prepared to use nested virtualization, so install required packages **Exceute issues section first
+Fedora box is not prepared to use nested virtualization, so install required packages
 
 ```bash
 sudo dnf -y install bridge-utils libvirt virt-install qemu-kvm
@@ -35,9 +35,15 @@ Decompress crc:
 tar -xf crc-linux-amd64.tar.xz
 ```
 
+CRC setup:
+
+```bash
+crc setup
+```
+
 ## Issues
 
-### Kernel / libvirt version 
+### Kernel / libvirt version (No issue anymore, but knowledge to handel old repositories on Fedora)
 
 There is a problem with newer versions of kernels + nested virtualization + kvm_intel driver. Seems problem is related with libvirt versions so we need to downgrade to version 5.6.X:
 

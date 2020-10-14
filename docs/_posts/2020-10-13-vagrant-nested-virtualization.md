@@ -58,7 +58,10 @@ Vagrant.configure("2") do |config|
   config.vm.provider :libvirt do |libvirt|
     # Enable KVM nested virtualization
     libvirt.nested = true
-    libvirt.cpu_mode = "host-model"
+    #host-model is deprecated at rhel 8 use pass-through instead
+    libvirt.cpu_mode = "host-passthrough"
+    # Increase memory allocation for CRC requirements
+    libvirt.memory = 10238
   end  
 end
 ```
@@ -72,3 +75,5 @@ end
 [3. Vagrant libvirt plugin installation](https://github.com/vagrant-libvirt/vagrant-libvirt#installation)
 
 [4. Vagrant issue installing libvirt plugin](https://github.com/vagrant-libvirt/vagrant-libvirt/issues/982#issuecomment-597470072)
+
+[5. Nested virtualization on RHEL 8](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/configuring_and_managing_virtualization/creating-nested-virtual-machines_configuring-and-managing-virtualization)
