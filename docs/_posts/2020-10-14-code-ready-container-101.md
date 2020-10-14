@@ -26,7 +26,12 @@ Fedora box is not prepared to use nested virtualization, so install required pac
 
 ```bash
 sudo dnf -y install bridge-utils libvirt virt-install qemu-kvm
-sudo modprobe kvm_intel
+```
+
+Check virtualization:
+
+```bash
+lsmod | grep kvm
 ```
 
 Download [CRC + pull secret](https://cloud.redhat.com/openshift/install/crc/installer-provisioned)
@@ -90,4 +95,4 @@ sudo dnf install libvirt-5.6.0-4.fc31
 
 [3. Issue with nested virtualization kvm_intel](https://bugzilla.kernel.org/show_bug.cgi?id=203543)
 
-[4. Fedora repositories management](https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora/)
+[4. Fedora repositories management](https://docs.fedoraproject.org/en-US/quick-docs/adding-or-removing-software-repositories-in-fedora)

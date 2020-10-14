@@ -66,6 +66,10 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+## Extend vagrnat with dns
+
+[TBC](https://nts.strzibny.name/dns-for-your-vagrant-needs-with-landrush-libvirt-and-dnsmasq/)
+
 ## Bibliography
 
 [1. RHEL virtualization](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/virtualization_deployment_and_administration_guide/index)
