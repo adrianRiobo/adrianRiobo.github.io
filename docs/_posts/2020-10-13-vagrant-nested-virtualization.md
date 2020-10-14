@@ -43,7 +43,7 @@ vagrant plugin install vagrant-libvirt
 Due to some issue compiling the sources for the provider it is prefererd to install vagrant using dnf (this is due to the management for internal dependices, like embedded ruby)
 
 ```bash
-sudo dnf install https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_x86_64.rpm
+sudo dnf install --disablerepo=* -y https://releases.hashicorp.com/vagrant/2.2.10/vagrant_2.2.10_x86_64.rpm
 
 vagrant plugin install vagrant-libvirt
 ```
