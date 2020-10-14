@@ -10,6 +10,8 @@ Initial steps with code ready containers solution. As an initial approach this t
 
 Check vagrant [nested virtualization](https://adrianriobo.github.io/virtualization/testing/environment/2020/10/13/vagrant-nested-virtualization.html) to use vagrant as VMs manager.
 
+![Stack](/assets/2020-10-14-code-ready-container-101_01.jpg)
+
 <!--more-->
 
 ## Setup
