@@ -6,7 +6,7 @@ categories: containers openshift development local
 excerpt_separator: <!--more-->
 ---
 
-Initial steps with code ready containers solution. As an initial approach this tutorial will use nested virtualization to test the product (DISCLAIMER: this is not the prefered way).
+Initial steps with code ready containers solution. As an initial approach this tutorial will use nested virtualization to test the product (**DISCLAIMER: this is not the prefered way**).
 
 Check vagrant [nested virtualization](https://adrianriobo.github.io/virtualization/testing/environment/2020/10/13/vagrant-nested-virtualization.html) to use vagrant as VMs manager.
 
