@@ -48,6 +48,31 @@ CRC setup:
 crc setup
 ```
 
+Configure pull secret file:
+
+```bash
+crc config set pull-secret-file ./pull-secret.txt
+```
+
+CRC start full information:
+
+```bash
+crc start
+```
+
+Configure oc to access cluster:
+
+```bash
+eval $(crc oc-env)
+```
+
+Access the cluster with:
+
+```bash
+oc login -u developer -p developer https://api.crc.testing:6443
+oc login -u kubeadmin -p dpDFV-xamBW-kKAk3-Fi6Lg https://api.crc.testing:6443
+```
+
 ## Issues
 
 ### Kernel / libvirt version (No issue anymore, but knowledge to handel old repositories on Fedora)

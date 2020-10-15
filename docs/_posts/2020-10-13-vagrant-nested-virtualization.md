@@ -66,6 +66,21 @@ Vagrant.configure("2") do |config|
 end
 ```
 
+## Check virtualized resources
+
+Check virtual networks (vagrant create / use its default):
+
+```bash
+sudo virsh net-list --all
+sudo virsh net-dumpxml $NETWORK_NAME
+```
+
+Check VMs:
+
+```bash
+sudo virsh list --all
+```
+
 ## Extend vagrnat with dns
 
 [TBC](https://nts.strzibny.name/dns-for-your-vagrant-needs-with-landrush-libvirt-and-dnsmasq/)
